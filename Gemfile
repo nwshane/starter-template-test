@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#####################################################################
+##################### Starter Template Gems #########################
+
 gem 'rails', '4.2.1'
 gem 'mysql2', '~> 0.3.18'
 gem 'sass-rails', '~> 5.0'
@@ -27,6 +30,7 @@ group :development do
 
   gem 'mina', '~> 0.3.3', require: false
   gem 'mina-multistage', '~> 1.0.1', require: false
+  gem 'brakeman', '~> 3.0.5', require: false
 end
 
 group :development, :test do
@@ -46,3 +50,6 @@ end
 group :staging, :production do
   gem 'puma', '~> 2.11.1'
 end
+
+#####################################################################
+########################## Project Gems #############################
